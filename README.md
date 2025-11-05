@@ -1,4 +1,6 @@
-# Lapidary 💎
+# Lapidary 
+
+![Lapidary Logo](./project/assets/lapidary-small.png)
 
 Build beautiful, interactive CLI/TUI applications in Crystal.
 
