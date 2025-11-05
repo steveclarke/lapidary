@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Developer initialization script
+# Sets up workspace and prepares development environment
+
+set -e
+
+echo "=== Lapidary Development Setup ==="
+echo ""
+
+# Workspace setup
+WORKSPACE_FILE="lapidary.code-workspace"
+TEMPLATE_FILE="lapidary.code-workspace.template"
+
+if [ -f "$WORKSPACE_FILE" ]; then
+  echo "✓ Workspace file already exists: $WORKSPACE_FILE"
+  echo ""
+  echo "To customize it, edit $WORKSPACE_FILE directly."
+  echo "See project/guides/vscode-settings-guide.md for details."
+else
+  if [ ! -f "$TEMPLATE_FILE" ]; then
+    echo "✗ Error: Template file not found: $TEMPLATE_FILE"
+    exit 1
+  fi
+
+  echo "Creating your personal workspace file..."
+  cp "$TEMPLATE_FILE" "$WORKSPACE_FILE"
+  echo "✓ Created $WORKSPACE_FILE"
+fi
+
+echo ""
+echo "Next steps:"
+echo "  1. Open workspace: code $WORKSPACE_FILE"
+echo "  2. Start coding!"
