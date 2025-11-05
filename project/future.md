@@ -1,4 +1,4 @@
-# Gemcraft - Future Enhancements
+# Lapidary - Future Enhancements
 
 This document captures features and enhancements beyond v1 scope. These are valuable ideas worth preserving for future development phases.
 
@@ -163,13 +163,13 @@ This document captures features and enhancements beyond v1 scope. These are valu
 ### Long-term Goals
 
 **Become the Charmbracelet of Crystal**
-- Establish Gemcraft as the default choice for Crystal CLI/TUI development
+- Establish Lapidary as the default choice for Crystal CLI/TUI development
 - Build a community around the toolkit
 - Maintain parity with Charmbracelet's ongoing development
 
 **Community & Ecosystem**
 - Encourage community-contributed components
-- Build showcase gallery of applications using Crystal Sea
+- Build showcase gallery of applications using Lapidary
 - Create educational content and tutorials
 - Establish conventions and best practices
 

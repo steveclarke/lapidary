@@ -1,4 +1,4 @@
-# Gemcraft - Vision Document
+# Lapidary - Vision Document
 
 Build beautiful, interactive CLI/TUI applications in Crystal with the same power that Go developers get from Charmbracelet.
 
@@ -40,17 +40,17 @@ Port Charmbracelet's proven architecture to Crystal using a disciplined, 1:1 tra
 - Validate the port by getting their example programs working in Crystal
 - Use Crystal's native C bindings for terminal control (similar to Go's approach)
 
-**The Gemcraft Ecosystem:**
+**The Lapidary Ecosystem:**
 
-| Charmbracelet | Gemcraft | Purpose |
+| Charmbracelet | Lapidary | Purpose |
 |---------------|----------|---------|
-| **Charmbracelet** | **Gemcraft** 💎 | Ecosystem/toolkit brand |
-| **Bubble Tea** | **gem** 💎 | Core event loop implementing The Elm Architecture |
+| **Charmbracelet** | **Lapidary** 💎 | Ecosystem/toolkit brand |
+| **Bubble Tea** | **jewel** 💎 | Core event loop implementing The Elm Architecture |
 | **Bubbles** | **facets** 🔷 | Interactive components (lists, inputs, spinners) |
 | **Lip Gloss** | **setting** 💍 | Styling system (colors, borders, layout) |
 | **Glamour** | **shimmer** 🌟 | Markdown rendering for help text and docs |
 
-**Conceptual Unity:** A gem is cut into facets, placed in a setting, and shimmers in the light.
+**Conceptual Unity:** A jewel is cut into facets, placed in a setting, and shimmers in the light.
 
 **What Makes This Work:**
 - Charmbracelet is MIT-licensed, so the architecture is freely adaptable
@@ -68,7 +68,7 @@ Crystal developers building CLI/TUI applications need:
 - Components that feel natural in Crystal's ecosystem
 
 ### Product Team (Maintainers)
-The maintainers building and evolving Gemcraft need:
+The maintainers building and evolving Lapidary need:
 - A structured porting process that minimizes decision-making and guesswork
 - Clear mapping from Charmbracelet's Go code to Crystal equivalents
 - Validation through working example programs (port their examples, prove it works)
@@ -87,7 +87,7 @@ See [future.md](future.md) for detailed future enhancements including:
 
 ### What v1 Delivers
 
-**gem (Bubble Tea Core) - Minimum Viable Implementation:**
+**jewel (Bubble Tea Core) - Minimum Viable Implementation:**
 - Core type system (Model, Msg, Cmd)
 - Program event loop and initialization
 - Key input handling and ANSI escape sequences
@@ -108,7 +108,7 @@ See [future.md](future.md) for detailed future enhancements including:
 - Following Charmbracelet's example structure
 
 **Development Approach:**
-- Follow Bubble Tea's file structure 1:1 (e.g., `tea.go` → `src/gem.cr`)
+- Follow Bubble Tea's file structure 1:1 (e.g., `tea.go` → `src/jewel.cr`)
 - Mirror Go's module organization in Crystal
 - Validate by porting and running Charmbracelet's examples
 

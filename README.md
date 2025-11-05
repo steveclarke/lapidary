@@ -1,4 +1,4 @@
-# Gemcraft 💎
+# Lapidary 💎
 
 Build beautiful, interactive CLI/TUI applications in Crystal.
 
@@ -6,13 +6,13 @@ Build beautiful, interactive CLI/TUI applications in Crystal.
 
 Bring the elegance of Ruby syntax and the power of compiled binaries to terminal interface development. 
 
-## The Gemcraft Ecosystem
+## The Lapidary Ecosystem
 
-A gem is cut into facets, placed in a setting, and shimmers in the light.
+A jewel is cut into facets, placed in a setting, and shimmers in the light.
 
 | Tool | Purpose |
 |------|---------|
-| Gem 💎 | Core framework implementing The Elm Architecture |
+| Jewel 💎 | Core framework implementing The Elm Architecture |
 | Facets 🔷 | Interactive components (lists, inputs, spinners) |
 | Setting 💍 | Styling system (colors, borders, layout) |
 | Shimmer 🌟 | Markdown rendering for beautiful help text |
