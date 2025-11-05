@@ -1,4 +1,3 @@
-# Lapidary 
 
 ![Lapidary Logo](./project/assets/lapidary-small.png)
 
